@@ -1,0 +1,17 @@
+CUDA_VISIBLE_DEVICES=2 python -m torch.distributed.launch --nproc_per_node=1 --master_port=12303 --use_env run_train.py \
+--diff_steps 2000 \
+--lr 0.0001 \
+--learning_steps 80000 \
+--save_interval 10000 \
+--seed 102 \
+--noise_schedule sqrt \
+--hidden_dim 128 \
+--bsz 128 \
+--dataset ed \
+--data_dir /path-to-repo/DiffusEmp/datasets/EmpatheticDialogue/mask-fine \
+--vocab vm \
+--hostname mancity \
+--seq_len 128 \
+--schedule_sampler lossaware \
+--use_visible_mask True \
+--notes mask-fine-vm \
