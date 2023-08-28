@@ -1,6 +1,7 @@
 # DiffusEmp
-This repo contains the official implementation for the submission	paper 2587: DiffuEmp: A Conditional Diffusion Language Model with Multi-Grained Control for Empathetic Response Generation
+This repo contains the official implementation for the ACL 2023 paper: [DiffuEmp: A Conditional Diffusion Language Model with Multi-Grained Control for Empathetic Response Generation](https://aclanthology.org/2023.acl-long.158/)
 
+![](framework.png)
 
 ## Highlights
 The main contribution of this paper is threefold:
@@ -36,5 +37,3 @@ bash run_decode.sh
 ```bash
 cd scripts
 python eval_seq2seq.py 
-```
-# DiffusEmp
