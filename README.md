@@ -20,6 +20,8 @@ To download the EmpatheticDialogues dataset:
 ```bash 
 wget https://dl.fbaipublicfiles.com/parlai/empatheticdialogues/empatheticdialogues.tar.gz
 ```
+The `frames_list.txt` can be downloaded from the following link and placed in the same folder as the dataset.
+https://drive.google.com/file/d/1odTzaymJkfguF7Wl0vvcIAJwCVgtZXyl/view?usp=sharing
 
 ## Train
 ```bash
